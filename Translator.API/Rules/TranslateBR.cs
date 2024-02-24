@@ -21,7 +21,7 @@ namespace Translator.API.Rules
             dynamic jsonResponse = JsonConvert.DeserializeObject(responseBody);
             string translatedText = jsonResponse.responseData.translatedText;
 
-            return translatedText;
+            return translatedText; 
         }
     }
 }
